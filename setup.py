@@ -33,10 +33,8 @@ setup(name='baselines',
           'joblib',
           'dill',
           'progressbar2',
-          'mpi4py',
           'cloudpickle',
-          'click',
-          'opencv-python'
+          'click'
       ],
       extras_require=extras,
       description='OpenAI baselines: high quality implementations of reinforcement learning algorithms',
